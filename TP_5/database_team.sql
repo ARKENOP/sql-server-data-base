@@ -1,11 +1,7 @@
---CREATE DATABASE team_builder
+--REATE DATABASE team
 --GO
-USE team_builder
+USE team
 GO
--- DROP TABLE personne;
--- DROP TABLE equipe;
--- DROP TABLE equipe_has_personne
-
 CREATE TABLE [personne] (
   [id] int PRIMARY KEY IDENTITY(1, 1),
   [nom] varchar(255) NOT NULL,
